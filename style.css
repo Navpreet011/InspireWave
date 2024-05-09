@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+#quote{
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    color:white;
+}

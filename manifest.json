@@ -1,0 +1,19 @@
+{
+    "name":"InspireWave",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "description": "Get inspired with motivational and inspirational quotes every time you open a new tab!",
+    "chrome_url_overrides": {
+      "newtab": "main.html"
+    },
+    "icons":{
+      "128":"logo.png"
+    },
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["script.js"]
+      }
+    ]
+}
